@@ -19,7 +19,7 @@ module.exports = {
         // navbar: false, //禁用头部导航
         nav: nav,
         sidebar: sidebar,
-        sidebarDepth: 2, //标题深度，最大2到H3
+        sidebarDepth: 1, //标题深度，最大2到H3
         displayAllHeaders: true
     }
 
