@@ -2,7 +2,7 @@
 home: true
 heroImage: /img/hero.jpg
 heroText: 冷云博客
-tagline: 学习文档整理
+tagline: 冷云个人学习文档整理blog
 actionText: 快速开始 →
 actionLink: /js/
 features:
