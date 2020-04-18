@@ -1,6 +1,6 @@
 ## CSSStyleSheet对象
 
-当我们去编写HTML的时候，每当我们通过link标签引入一个css文件或者通过style标签来创建一个内部的样式文件的时候，浏览器都会对应的创建一个CSSStyleSheet对象。CSSStyleSheet对象允许开发者对它进行增删改查的操作，我们也可以通过js来操作这个对象从而达到修改页面样式的目的。
+当我们去编写HTML的时候，通过link标签引入一个css文件或者通过style标签来创建一个内部的样式文件的时候，浏览器都会对应的创建一个CSSStyleSheet对象。CSSStyleSheet对象允许开发者对它进行增删改查的操作，我们也可以通过js来操作这个对象从而达到修改页面样式的目的。
 
 ## 获取CSSStyleSheet对象
 
@@ -44,7 +44,7 @@
 
 * ownerRule
 
-  表示当前样式表是否是通过import规则来引入的，如果是就会返回这个规则如果不是就返回null
+  表示当前样式表是否通过import规则来引入的，如果是就会返回这个规则如果不是就返回null
 
 * parentStyleSheet
 

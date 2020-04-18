@@ -37,7 +37,7 @@ module.exports = {
         ['/js/1-11packObject.md', '包装对象'],
         ['/js/1-12builtinObject.md', '单体内置对象'],
         ['/js/1-13object-oriented.md', '面向对象的设计模式'],
-        ['/js/1-14inherit.md', 'js中的继承'],
+        ['/js/1-13inherit.md', 'js中的继承'],
         ['/js/1-15summary.md', '综合知识复习'],
         {
             title: 'BOM',
@@ -57,8 +57,8 @@ module.exports = {
                 ['/js/3-2-4classAndfocus.md', 'class和焦点管理'],
                 ['/js/3-2-5stringMendDOM.md', '使用字符串操作DOM节点'],
                 ['/js/3-2-6scroll.md', 'JS的滚动操作'],
-                ['/js/3-2-7scriptCss.md', '脚本化CSS'],
-                ['/js/3-2-8scriptCss.md', '内链样式和外链样式操作']
+                ['/js/3-2-7scriptCss1.md', '脚本化CSS'],
+                ['/js/3-2-7scriptCss2.md', '内链样式和外链样式操作']
             ]
         },
         {

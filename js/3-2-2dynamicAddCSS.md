@@ -22,7 +22,7 @@
        try{
        	style.appendChild(document.createTextNode(css));
        } catch (ex){
-       	style.styleSheet.cssText = css;
+       	style.textContent = css;
        }
        var head = document.getElementsByTagName("head")[0];
        head.appendChild(style);
@@ -41,7 +41,7 @@
 
 **注意：**
 
-1. 动态加载的远程js，如果修改src属性等同于无效。有的浏览器会下载js。
+1. 动态加载的远程js，如果修改src属性等同于无效。有的浏览器会下载js但不执行。
 
 2. script标签的src属性可以加载任何后缀的文件。这时就有了动态加载js的两外一种思路。我们可以让scr指向一个动态文件地址，比如php文件jsp文件，然后浏览器会去请求这个文件，在这个文件上你可以进行一些动态操作。比如根据事件的不同返回字符串不一样，或者根据传递的cookies不同做一些判断。
 

@@ -35,9 +35,9 @@ HTMLCollection也是节点合集，但这合集里面只包括元素节点，元
 
    可以通过索引过去对应的值，不能使用数组的方法进行操作。
 
-   转换伪数组为数组：selest +call/apply
+   转换伪数组为数组：Array.prototype.slice.call(伪数组)
 
-   IE的元素节点是基于commet对象实现的，IE下想把获得的伪数组转化为数组的话不能使用sels方法，需要手动做一次循环，把各项添加到空数组里 
+   IE的元素节点是基于commet对象实现的，IE下想把获得的伪数组转化为数组的话不能使用slice方法，需要手动做一次循环，把各项添加到空数组里 
 
 2. 都有item 方法
 
@@ -110,7 +110,7 @@ NodeList是所有节点的合集可以包含12中类型
 HTMLCollection只能包含一种即元素节点。
 
 1. 获取子节点的时候，使用childNodes属性获得是所有子节点。使用children属性获得只有元素节点。
-2. 都是伪数组，但在IE下HTMLCollection是基于commer对象实现的不能使用sele.call的方式把它转化为数组，只能手动转化。
+2. 都是伪数组，但在IE下HTMLCollection是基于commer对象实现的不能使用slice.call的方式把它转化为数组，只能手动转化。
 3. 都是动态合集，如果直接操作DOM结构的话，变量也会发生变化。
 4. 大部分的NodeList、HTMLCollection、NamedNodeMap他们都是动态合集。但通过document.querySelectorAll("div")和document.querySelector("div")获取的结果是静态合集，这两个方法能让你的操作简化但是性能相差100倍。尽量使用getElementById等方式获取节点
 

@@ -84,7 +84,7 @@ H5的document.activeElement 属性保存了文档当中被激活的那个节点�
 
  document.hasFocus()方法 用于判断整个文档是否获取焦点。 实际用途是判断一个用户是否正在跟网页进行交互。
 
-###  注意事项：
+#### 注意事项：
 
 1. hasFocus()是document的方法，切只能通过document.hasFocus()来进行调用。
 
@@ -102,7 +102,7 @@ H5的document.activeElement 属性保存了文档当中被激活的那个节点�
 
    可以增加用户体检，用户不在网页中增加一些提示。
 
-###  焦点管理的意义
+### 焦点管理的意义
 
 1. 让你的html代码开发更加标准化
 
